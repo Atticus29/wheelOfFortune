@@ -12,6 +12,18 @@
   <title></title>
 </head>
 <body>
-
+  <div class="container">
+    <form id="usrSubmission">
+      <label for="vowelInput">Enter a vowel guess</label>
+      <input type="text" id="vowelInput" required>
+      <button type="submit" class="guessButton">Guess</button>
+    </form>
+    <div class="row">
+      <h3>Current phrase is:</h3>
+      <div id="hidden-vowel-box">
+        <h4 id="wordHiddenVowels"></h4>
+      </div>
+    </div>
+  </div>
 </body>
 </html>

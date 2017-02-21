@@ -1,0 +1,13 @@
+.turnGreen{
+  /*border-color: green;*/
+  color: green;
+}
+
+
+.turnBorderGreen{
+  border-style: solid;
+  /*width: 100px;*/
+  border-color: green;
+  text-align: center;
+  /*color: green;*/
+}
